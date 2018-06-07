@@ -16,16 +16,14 @@ Quick start
 
 Useful references:
 -----------
-* https://docs.djangoproject.com/en/1.10/ref/class-based-views/generic-display/
-* https://docs.djangoproject.com/en/1.10/topics/class-based-views/generic-editing/
-* https://docs.djangoproject.com/en/1.10/ref/class-based-views/generic-editing/
-* https://docs.djangoproject.com/en/1.10/ref/class-based-views/flattened-index/
-* https://docs.djangoproject.com/en/1.10/topics/forms/modelforms/#inline-formsets
+* https://docs.djangoproject.com/en/2.0/ref/class-based-views/generic-display/
+* https://docs.djangoproject.com/en/2.0/topics/class-based-views/generic-editing/
+* https://docs.djangoproject.com/en/2.0/ref/class-based-views/generic-editing/
+* https://docs.djangoproject.com/en/2.0/ref/class-based-views/flattened-index/
+* https://docs.djangoproject.com/en/2.0/topics/forms/modelforms/#inline-formsets
 * http://whoisnicoleharris.com/2015/01/06/implementing-django-formsets.html
 * https://github.com/elo80ka/django-dynamic-formset
 * https://gist.github.com/neara/6209563
 * http://stackoverflow.com/questions/27876644/django-class-based-createview-and-updateview-with-multiple-inline-formsets
 * https://github.com/AndrewIngram/django-extra-views
 * http://ruddra.com/2015/09/18/working-with-formset/
-
-
