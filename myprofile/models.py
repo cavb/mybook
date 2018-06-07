@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 
 from django.db import models
 from django.utils import timezone
@@ -18,6 +18,6 @@ class Profile(models.Model):
 
 
 class FamilyMember(models.Model):
-    profile = models.ForeignKey(Profile)
+    profile = models.ForeignKey(Profile, null=True, on_delete=models.SET_NULL)
     name = models.CharField(max_length=100)
     relationship = models.CharField(max_length=100)
